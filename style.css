@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 350px;
+    background: linear-gradient(150deg,skyblue,rgb(114, 114, 207));
+    border-radius: 15px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+} 
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.error{
+    margin: auto;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    color: white;
+    display: none;
+}
+.search-box #city{
+
+    margin-top: 2rem;
+    padding: 15px 40px;
+    border-radius: 25px;
+}
+.search-box #btn{
+    margin-top: 2rem;
+    padding: 15px;
+    border-radius: 25px;
+    margin-left: 0.5rem;
+}
+
+.temp-box{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temp-box .weather{
+    width: 160px;
+}
+
+.temp-box .temp{
+    font-size: 3.2rem;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.temp-box .city{
+    font-size: 2rem;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.details{
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.details .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.details .col .value {
+
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.details .col .value p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.details .col  img{
+
+    width: 50px;
+}
+
+.hide{
+    display: none;
+}
+
+.view{
+    display: block;
+}
+
+
+
+/* .search-box{
+    margin-top: 1.8rem;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}   
+.search-box input{
+    outline: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+}
+
+
+.search-box button{
+    padding: 15px;
+    border-radius: 50px;
+}
+.search-box button i{
+    color: black;
+}
+.search-box button:hover{
+    cursor: pointer;
+
+}
+.temp-box{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp-box .temp{
+    font-size: 3.5rem;
+}
+.temp-box .city{
+    font-size: 2rem;
+}
+
+.temp-box img{
+    height: 120px;
+}
+.details{
+    width: 100%;
+    height: 180px;
+    display: flex;
+}
+
+.details .col{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.details .col .value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+}
+.details .col img{
+    width: 40px;
+    margin-bottom: 15px;
+} */
+
+
+@media screen and (max-width: 350px) {
+
+}
